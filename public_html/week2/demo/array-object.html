@@ -10,7 +10,7 @@
         
         <script>
                         
-            var areas = [
+            let areas = [
                 {city: 'Providence', state: 'RI'},
                 {city: 'Boston', state: 'MA'},
                 {city: 'New York', state: 'NY'}
@@ -19,13 +19,13 @@
             
             for(let index in areas){
                 console.log(areas[index])
-                console.log(`${areas[index].city}, ${areas[index].state}`)
+                console.log(`${areas[index].city}, ${areas[index].state}`);
             }
             
             
             areas.forEach(function(location) {
-                console.log(`${location.city}, ${location.state}`) 
-            })
+                console.log(`${location.city}, ${location.state}`);
+            });
             
         </script>
     </body>
